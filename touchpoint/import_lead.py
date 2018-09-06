@@ -12,7 +12,7 @@ def do_import():
 
         # if user not already exists
         if Touchpoint.objects.filter(username=item[0]):
-            pass
+            pass 
         else:
             new_touchpoint = Touchpoint(username=item[0], modified_date=datetime.now())
             new_touchpoint.save()
@@ -21,7 +21,7 @@ def do_import():
     
 def readFile():
 
-    rows = []    
+    rows = []
     module_dir = os.path.dirname(__file__)  # get current directory
     file_path = os.path.join(module_dir, 'lead.txt')
 
