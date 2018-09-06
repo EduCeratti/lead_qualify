@@ -1,4 +1,8 @@
 """lead_qualify URL Configuration
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0e2901b95ffb5790488b1fa33f7c9277b532c451
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.8/topics/http/urls/
 Examples:
@@ -17,6 +21,11 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+<<<<<<< HEAD
     #url(r'', include('touchpoint.urls')),
     url(r'^', include('touchpoint.urls', namespace='touchpoint')),
 ]
+=======
+    url(r'', include('touchpoint.urls')),
+]
+>>>>>>> 0e2901b95ffb5790488b1fa33f7c9277b532c451
