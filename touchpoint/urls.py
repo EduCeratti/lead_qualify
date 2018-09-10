@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # from django.conf.urls import patterns, url
 
 # from touchpoint.views import HomePageView
@@ -18,14 +17,12 @@ urlpatterns = [
     url(r'^touchpoint/(?P<pk>[0-9]+)/$', views.TouchpointDetail.as_view(), name='touchpoint-detail'),
     #url(r'^touchpoint/(?P<username>[]+)/$', views.TouchpointDetail.as_view(), name='touchpoint-detail'),
 ]
-=======
-from django.conf.urls import patterns, url
+# from django.conf.urls import patterns, url
 
-from touchpoint.views import HomePageView
+# from touchpoint.views import HomePageView
 
-urlpatterns = patterns(
-    '',
+# urlpatterns = patterns(
+#     '',
 
-    url(r'^$', HomePageView.as_view(), name='home'),
-)
->>>>>>> 0e2901b95ffb5790488b1fa33f7c9277b532c451
+#     url(r'^$', HomePageView.as_view(), name='home'),
+# )
